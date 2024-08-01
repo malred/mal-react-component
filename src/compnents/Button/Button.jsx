@@ -74,7 +74,8 @@ export const Button = (props) => {
         btnClass += " text-md px-5 py-2 font-medium "
     }
     // 阴影 浮起
-    btnClass += " hover:shadow-lg hover:-inset-y-1 "
+    // btnClass += " hover:shadow-lg hover:animate-bounce "
+    btnClass += " hover:shadow-lg hover:absolute hover:-inset-y-1 "
 
     return (
         <button className={`${btnClass + className}`} {...rest}>
