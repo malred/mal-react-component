@@ -75,7 +75,7 @@ export const Button = (props) => {
     }
     // 阴影 浮起
     // btnClass += " hover:shadow-lg hover:animate-bounce "
-    btnClass += " hover:shadow-lg hover:absolute hover:-inset-y-1 "
+    btnClass += " hover:shadow-lg hover:scale-110 transition duration-150 ease-in-out "
 
     return (
         <button className={`${btnClass + className}`} {...rest}>
